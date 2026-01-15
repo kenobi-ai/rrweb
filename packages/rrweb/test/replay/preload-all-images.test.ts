@@ -11,7 +11,7 @@ import {
   IncrementalSource,
   EventType,
   eventWithTime,
-} from '@rrweb/types';
+} from '@kenobi.ai/types';
 
 let replayer: Replayer;
 

@@ -1,4 +1,4 @@
-import type { eventWithTime } from '@rrweb/types';
+import type { eventWithTime } from '@kenobi.ai/types';
 
 export enum SyncDataKey {
   settings = 'settings',

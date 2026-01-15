@@ -5,9 +5,9 @@ import {
   type canvasMutationWithType,
   type IWindow,
   type listenerHandler,
-} from '@rrweb/types';
+} from '@kenobi.ai/types';
 import { hookSetter, isBlocked } from '../../../utils';
-import { patch } from '@rrweb/utils';
+import { patch } from '@kenobi.ai/utils';
 import { saveWebGLVar, serializeArgs } from './serialize-args';
 
 function patchGLPrototype(

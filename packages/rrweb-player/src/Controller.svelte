@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { EventType } from '@rrweb/types';
-  import type { playerMetaData } from '@rrweb/types';
+  import { EventType } from '@kenobi.ai/types';
+  import type { playerMetaData } from '@kenobi.ai/types';
   import type {
     Replayer,
     PlayerMachineState,
     SpeedMachineState,
-  } from '@rrweb/replay';
+  } from '@kenobi.ai/replay';
   import {
     onMount,
     onDestroy,

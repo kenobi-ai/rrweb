@@ -6,8 +6,8 @@ import {
   createMirror,
   Mirror as NodeMirror,
   serializedNodeWithId,
-} from 'rrweb-snapshot';
-import { NodeType as RRNodeType } from '@rrweb/types';
+} from '@kenobi.ai/rrweb-snapshot';
+import { NodeType as RRNodeType } from '@kenobi.ai/types';
 import { RRDocument } from '../../src';
 import { diff, ReplayerHandler } from '../../src/diff';
 

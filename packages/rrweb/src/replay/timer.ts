@@ -3,7 +3,7 @@ import {
   type eventWithTime,
   EventType,
   IncrementalSource,
-} from '@rrweb/types';
+} from '@kenobi.ai/types';
 
 export class Timer {
   public timeOffset = 0;

@@ -1,5 +1,5 @@
-import { EventType, IncrementalSource } from '@rrweb/types';
-import type { eventWithTime } from '@rrweb/types';
+import { EventType, IncrementalSource } from '@kenobi.ai/types';
+import type { eventWithTime } from '@kenobi.ai/types';
 
 const now = Date.now();
 const events: eventWithTime[] = [

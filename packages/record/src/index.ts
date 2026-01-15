@@ -1,3 +1,3 @@
-import { record } from 'rrweb';
+import { record } from '@kenobi.ai/rrweb';
 
 export { record };

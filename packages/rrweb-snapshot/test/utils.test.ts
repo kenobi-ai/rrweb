@@ -9,8 +9,8 @@ import {
   isNodeMetaEqual,
   stringifyStylesheet,
 } from '../src/utils';
-import { NodeType } from '@rrweb/types';
-import type { serializedNode, serializedNodeWithId } from '@rrweb/types';
+import { NodeType } from '@kenobi.ai/types';
+import type { serializedNode, serializedNodeWithId } from '@kenobi.ai/types';
 
 describe('utils', () => {
   describe('isNodeMetaEqual()', () => {

@@ -1,23 +1,26 @@
 {
-  "name": "@rrweb/rrweb-plugin-console-replay",
+  "name": "@kenobi.ai/plugin-console-replay",
   "version": "2.0.0-alpha.19",
   "description": "",
   "type": "module",
-  "main": "./dist/rrweb-plugin-console-replay.umd.cjs",
-  "module": "./dist/rrweb-plugin-console-replay.js",
-  "unpkg": "./dist/rrweb-plugin-console-replay.umd.cjs",
+  "main": "./dist/plugin-console-replay.umd.cjs",
+  "module": "./dist/plugin-console-replay.js",
+  "unpkg": "./dist/plugin-console-replay.umd.cjs",
   "typings": "dist/index.d.ts",
   "exports": {
     ".": {
       "import": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/rrweb-plugin-console-replay.js"
+        "default": "./dist/plugin-console-replay.js"
       },
       "require": {
         "types": "./dist/index.d.cts",
-        "default": "./dist/rrweb-plugin-console-replay.umd.cjs"
+        "default": "./dist/plugin-console-replay.cjs"
       }
     }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "dist",
@@ -31,25 +34,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rrweb-io/rrweb.git"
+    "url": "git+https://github.com/kenobi-ai/rrweb.git"
   },
   "keywords": [
-    "rrweb"
+    "rrweb",
+    "kenobi"
   ],
-  "author": "yanzhen@smartx.com",
+  "author": "kenobi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rrweb-io/rrweb/issues"
+    "url": "https://github.com/kenobi-ai/rrweb/issues"
   },
-  "homepage": "https://github.com/rrweb-io/rrweb#readme",
+  "homepage": "https://github.com/kenobi-ai/rrweb#readme",
   "devDependencies": {
-    "@rrweb/rrweb-plugin-console-record": "^2.0.0-alpha.19",
-    "rrweb": "^2.0.0-alpha.19",
+    "@kenobi.ai/plugin-console-record": "^2.0.0-alpha.19",
+    "@kenobi.ai/rrweb": "^2.0.0-alpha.19",
     "typescript": "^5.4.5",
     "vite": "^5.3.1",
     "vite-plugin-dts": "^3.9.1"
   },
   "peerDependencies": {
-    "rrweb": "^2.0.0-alpha.19"
+    "@kenobi.ai/rrweb": "^2.0.0-alpha.19"
   }
 }

@@ -1,5 +1,5 @@
-import type { attributeMutation } from '@rrweb/types';
-import { RRNode } from 'rrdom';
+import type { attributeMutation } from '@kenobi.ai/types';
+import { RRNode } from '@kenobi.ai/rrdom';
 
 /**
  * Checks if the dialog is a top level dialog and applies the dialog to the top level

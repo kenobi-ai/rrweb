@@ -1,5 +1,5 @@
-import { EventType } from '@rrweb/types';
-import type { eventWithTime } from '@rrweb/types';
+import { EventType } from '@kenobi.ai/types';
+import type { eventWithTime } from '@kenobi.ai/types';
 
 const now = Date.now();
 const events: eventWithTime[] = [

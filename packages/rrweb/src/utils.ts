@@ -9,11 +9,11 @@ import type {
   DeprecatedMirror,
   textMutation,
   IMirror,
-} from '@rrweb/types';
-import type { Mirror, SlimDOMOptions } from 'rrweb-snapshot';
-import { isShadowRoot, IGNORED_NODE, classMatchesRegex } from 'rrweb-snapshot';
-import { RRNode, RRIFrameElement, BaseRRNode } from 'rrdom';
-import dom from '@rrweb/utils';
+} from '@kenobi.ai/types';
+import type { Mirror, SlimDOMOptions } from '@kenobi.ai/rrweb-snapshot';
+import { isShadowRoot, IGNORED_NODE, classMatchesRegex } from '@kenobi.ai/rrweb-snapshot';
+import { RRNode, RRIFrameElement, BaseRRNode } from '@kenobi.ai/rrdom';
+import dom from '@kenobi.ai/utils';
 
 export function on(
   type: string,

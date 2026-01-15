@@ -4,7 +4,7 @@ import {
   Mirror,
   getInputType,
   toLowerCase,
-} from 'rrweb-snapshot';
+} from '@kenobi.ai/rrweb-snapshot';
 import type { FontFaceSet } from 'css-font-loading-module';
 import {
   throttle,
@@ -18,14 +18,14 @@ import {
   StyleSheetMirror,
   nowTimestamp,
 } from '../utils';
-import { patch } from '@rrweb/utils';
+import { patch } from '@kenobi.ai/utils';
 import type { observerParam, MutationBufferParam } from '../types';
 import {
   IncrementalSource,
   MouseInteractions,
   PointerTypes,
   MediaInteractions,
-} from '@rrweb/types';
+} from '@kenobi.ai/types';
 import type {
   mutationCallBack,
   mousemoveCallBack,
@@ -49,10 +49,10 @@ import type {
   SelectionRange,
   selectionCallback,
   customElementCallback,
-} from '@rrweb/types';
+} from '@kenobi.ai/types';
 import MutationBuffer from './mutation';
 import { callbackWrapper } from './error-handler';
-import dom, { mutationObserverCtor } from '@rrweb/utils';
+import dom, { mutationObserverCtor } from '@kenobi.ai/utils';
 
 export const mutationBuffers: MutationBuffer[] = [];
 
@@ -1076,7 +1076,7 @@ function initFontObserver({ fontCb, doc }: observerParam): listenerHandler {
     source: string | ArrayBufferLike,
     descriptors?: FontFaceDescriptors,
   ) {
-    const fontFace = new originalFontFace(family, source, descriptors);
+    const fontFace = new originalFontFace(family, source as string | BufferSource, descriptors);
     fontMap.set(fontFace, {
       family,
       buffer: typeof source !== 'string',

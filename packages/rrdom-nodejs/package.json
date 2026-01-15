@@ -1,5 +1,5 @@
 {
-  "name": "rrdom-nodejs",
+  "name": "@kenobi.ai/rrdom-nodejs",
   "version": "2.0.0-alpha.19",
   "scripts": {
     "dev": "vite build --watch",
@@ -10,8 +10,12 @@
     "prepublish": "tsc -noEmit && vite build",
     "lint": "yarn eslint src/**/*.ts"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "rrweb",
+    "kenobi",
     "rrdom-nodejs"
   ],
   "license": "MIT",
@@ -55,7 +59,7 @@
     "cssom": "^0.5.0",
     "cssstyle": "^2.3.0",
     "nwsapi": "2.2.0",
-    "rrdom": "^2.0.0-alpha.19",
-    "@rrweb/types": "^2.0.0-alpha.19"
+    "@kenobi.ai/rrdom": "^2.0.0-alpha.19",
+    "@kenobi.ai/types": "^2.0.0-alpha.19"
   }
 }
