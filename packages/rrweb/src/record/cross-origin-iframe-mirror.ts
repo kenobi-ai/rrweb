@@ -1,4 +1,4 @@
-import type { ICrossOriginIframeMirror } from '@kenobi.ai/types';
+import type { ICrossOriginIframeMirror } from '@kenobi.ai/rrweb-types';
 export default class CrossOriginIframeMirror
   implements ICrossOriginIframeMirror
 {

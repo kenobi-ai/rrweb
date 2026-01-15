@@ -1,5 +1,5 @@
 {
-  "name": "@kenobi.ai/packer",
+  "name": "@kenobi.ai/rrweb-packer",
   "version": "2.0.0-alpha.19",
   "publishConfig": {
     "access": "public"
@@ -7,7 +7,7 @@
   "keywords": [
     "rrweb",
     "kenobi",
-    "@kenobi.ai/packer"
+    "@kenobi.ai/rrweb-packer"
   ],
   "scripts": {
     "dev": "vite build --watch",
@@ -79,9 +79,10 @@
   },
   "dependencies": {
     "fflate": "^0.4.4",
-    "@kenobi.ai/types": "^2.0.0-alpha.19"
+    "@kenobi.ai/rrweb-types": "^2.0.0-alpha.19"
   },
   "browserslist": [
     "supports es6-class"
-  ]
+  ],
+  "author": "kenobi"
 }

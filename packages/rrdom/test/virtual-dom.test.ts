@@ -16,7 +16,7 @@ import {
   NodeType,
   NodeType as RRNodeType,
   textNode,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import {
   buildFromDom,
   buildFromNode,

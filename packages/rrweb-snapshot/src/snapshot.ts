@@ -7,7 +7,7 @@ import type {
   ICanvas,
   DialogAttributes,
 } from './types';
-import { NodeType } from '@kenobi.ai/types';
+import { NodeType } from '@kenobi.ai/rrweb-types';
 import type {
   serializedNode,
   serializedNodeWithId,
@@ -16,7 +16,7 @@ import type {
   attributes,
   mediaAttributes,
   DataURLOptions,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import {
   Mirror,
   is2DCanvasBlank,
@@ -31,7 +31,7 @@ import {
   absolutifyURLs,
   markCssSplits,
 } from './utils';
-import dom from '@kenobi.ai/utils';
+import dom from '@kenobi.ai/rrweb-utils';
 
 let _id = 1;
 const tagNameRegex = new RegExp('[^a-z0-9-_:]');

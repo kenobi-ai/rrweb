@@ -1,4 +1,4 @@
-import type { RecordPlugin } from '@kenobi.ai/types';
+import type { RecordPlugin } from '@kenobi.ai/rrweb-types';
 
 export type SequentialIdOptions = {
   key: string;

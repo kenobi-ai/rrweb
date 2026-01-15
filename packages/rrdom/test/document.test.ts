@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-import { NodeType as RRNodeType } from '@kenobi.ai/types';
+import { NodeType as RRNodeType } from '@kenobi.ai/rrweb-types';
 import {
   BaseRRDocument,
   BaseRRDocumentType,

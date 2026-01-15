@@ -9,9 +9,9 @@ import type {
   listenerHandler,
   CanvasArg,
   DataURLOptions,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import { isBlocked } from '../../../utils';
-import { CanvasContext } from '@kenobi.ai/types';
+import { CanvasContext } from '@kenobi.ai/rrweb-types';
 import initCanvas2DMutationObserver from './2d';
 import initCanvasContextObserver from './canvas';
 import initCanvasWebGLMutationObserver from './webgl';

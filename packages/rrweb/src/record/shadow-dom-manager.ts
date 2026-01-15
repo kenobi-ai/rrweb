@@ -3,7 +3,7 @@ import type {
   mutationCallBack,
   scrollCallback,
   SamplingStrategy,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import {
   initMutationObserver,
   initScrollObserver,
@@ -12,7 +12,7 @@ import {
 import { inDom } from '../utils';
 import type { Mirror } from '@kenobi.ai/rrweb-snapshot';
 import { isNativeShadowDom } from '@kenobi.ai/rrweb-snapshot';
-import dom, { patch } from '@kenobi.ai/utils';
+import dom, { patch } from '@kenobi.ai/rrweb-utils';
 
 type BypassOptions = Omit<
   MutationBufferParam,

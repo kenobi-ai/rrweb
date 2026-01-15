@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest';
 import { pack, unpack } from '../src';
-import { type eventWithTime, EventType } from '@kenobi.ai/types';
+import { type eventWithTime, EventType } from '@kenobi.ai/rrweb-types';
 import { MARK } from '../src/base';
 
 const event: eventWithTime = {

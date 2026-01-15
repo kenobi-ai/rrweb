@@ -846,6 +846,6 @@ export type DataURLOptions = Partial<{
   quality: number;
 }>;
 
-// Types for @kenobi.ai/packer
+// Types for @kenobi.ai/rrweb-packer
 export type PackFn = (event: eventWithTime) => string;
 export type UnpackFn = (raw: string) => eventWithTime;

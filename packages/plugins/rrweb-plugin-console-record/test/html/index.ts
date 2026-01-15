@@ -1,4 +1,4 @@
-import type { eventWithTime } from '@kenobi.ai/types';
+import type { eventWithTime } from '@kenobi.ai/rrweb-types';
 import { record } from '@kenobi.ai/rrweb';
 import { getRecordConsolePlugin } from '../../src/index';
 

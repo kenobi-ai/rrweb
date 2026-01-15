@@ -42,7 +42,7 @@ import {
   IncrementalSource,
   MouseInteractions,
   ReplayerEvents,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import type {
   attributes,
   fullSnapshotEvent,
@@ -70,7 +70,7 @@ import type {
   styleDeclarationData,
   adoptedStyleSheetData,
   serializedElementNodeWithId,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import {
   polyfill,
   queueToResolveTrees,

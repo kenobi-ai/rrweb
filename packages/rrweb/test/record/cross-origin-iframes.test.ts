@@ -7,8 +7,8 @@ import type {
   listenerHandler,
   eventWithTime,
   mutationData,
-} from '@kenobi.ai/types';
-import { EventType, IncrementalSource } from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
+import { EventType, IncrementalSource } from '@kenobi.ai/rrweb-types';
 import {
   assertSnapshot,
   getServerURL,

@@ -15,7 +15,7 @@ import {
   EventType,
   eventWithTime,
   listenerHandler,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import { recordOptions } from '../../src/types';
 
 interface IWindow extends Window {

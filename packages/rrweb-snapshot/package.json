@@ -58,8 +58,8 @@
   },
   "homepage": "https://github.com/kenobi-ai/rrweb/tree/master/packages/rrweb-snapshot#readme",
   "devDependencies": {
-    "@kenobi.ai/types": "^2.0.0-alpha.19",
-    "@kenobi.ai/utils": "^2.0.0-alpha.19",
+    "@kenobi.ai/rrweb-types": "^2.0.0-alpha.19",
+    "@kenobi.ai/rrweb-utils": "^2.0.0-alpha.19",
     "@types/jsdom": "^20.0.0",
     "@types/node": "^18.15.11",
     "@types/puppeteer": "^5.4.4",

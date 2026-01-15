@@ -14,7 +14,7 @@ import type {
   BuildCache,
   textNode,
 } from '../src/types';
-import { NodeType } from '@kenobi.ai/types';
+import { NodeType } from '@kenobi.ai/rrweb-types';
 import { Window } from 'happy-dom';
 
 describe('css parser', () => {

@@ -1,6 +1,6 @@
 import Browser from 'webextension-polyfill';
 import { nanoid } from 'nanoid';
-import type { eventWithTime } from '@kenobi.ai/types';
+import type { eventWithTime } from '@kenobi.ai/rrweb-types';
 import Channel from '~/utils/channel';
 import {
   EventName,

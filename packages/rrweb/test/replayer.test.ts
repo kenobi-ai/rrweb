@@ -28,7 +28,7 @@ import adoptedStyleSheetModification from './events/adopted-style-sheet-modifica
 import documentReplacementEvents from './events/document-replacement';
 import hoverInIframeShadowDom from './events/iframe-shadowdom-hover';
 import customElementDefineClass from './events/custom-element-define-class';
-import { ReplayerEvents } from '@kenobi.ai/types';
+import { ReplayerEvents } from '@kenobi.ai/rrweb-types';
 
 interface ISuite {
   code: string;

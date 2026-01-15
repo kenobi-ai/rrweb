@@ -1,5 +1,5 @@
 {
-  "name": "@kenobi.ai/record",
+  "name": "@kenobi.ai/rrweb-record",
   "version": "2.0.0-alpha.19",
   "publishConfig": {
     "access": "public"
@@ -7,7 +7,7 @@
   "keywords": [
     "rrweb",
     "kenobi",
-    "@kenobi.ai/record"
+    "@kenobi.ai/rrweb-record"
   ],
   "scripts": {
     "dev": "vite build --watch",
@@ -28,19 +28,19 @@
   },
   "license": "MIT",
   "type": "module",
-  "main": "./dist/record.cjs",
-  "module": "./dist/record.js",
-  "unpkg": "./dist/record.umd.cjs",
+  "main": "./dist/rrweb-record.cjs",
+  "module": "./dist/rrweb-record.js",
+  "unpkg": "./dist/rrweb-record.umd.cjs",
   "typings": "dist/index.d.ts",
   "exports": {
     ".": {
       "import": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/record.js"
+        "default": "./dist/rrweb-record.js"
       },
       "require": {
         "types": "./dist/index.d.cts",
-        "default": "./dist/record.cjs"
+        "default": "./dist/rrweb-record.cjs"
       }
     }
   },
@@ -56,9 +56,9 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@kenobi.ai/types": "^2.0.0-alpha.19",
+    "@kenobi.ai/rrweb-types": "^2.0.0-alpha.19",
     "@kenobi.ai/rrweb": "^2.0.0-alpha.19",
-    "@kenobi.ai/utils": "^2.0.0-alpha.19"
+    "@kenobi.ai/rrweb-utils": "^2.0.0-alpha.19"
   },
   "browserslist": [
     "supports es6-class"

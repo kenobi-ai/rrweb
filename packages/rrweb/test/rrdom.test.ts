@@ -3,7 +3,7 @@
  */
 import { EventType, IncrementalSource, Replayer, eventWithTime } from '../src';
 import { vi, type MockInstance } from 'vitest';
-import type { styleDeclarationData, styleSheetRuleData } from '@kenobi.ai/types';
+import type { styleDeclarationData, styleSheetRuleData } from '@kenobi.ai/rrweb-types';
 import { createMirror, Mirror as NodeMirror } from '@kenobi.ai/rrweb-snapshot';
 import type { ReplayerHandler } from '@kenobi.ai/rrdom';
 

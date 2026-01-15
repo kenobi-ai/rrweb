@@ -5,7 +5,7 @@ import type {
   nodeMetaMap,
 } from './types';
 
-import { NodeType } from '@kenobi.ai/types';
+import { NodeType } from '@kenobi.ai/rrweb-types';
 import type {
   IMirror,
   serializedNodeWithId,
@@ -14,8 +14,8 @@ import type {
   documentTypeNode,
   textNode,
   elementNode,
-} from '@kenobi.ai/types';
-import dom from '@kenobi.ai/utils';
+} from '@kenobi.ai/rrweb-types';
+import dom from '@kenobi.ai/rrweb-utils';
 
 export function isElement(n: Node): n is Element {
   return n.nodeType === n.ELEMENT_NODE;

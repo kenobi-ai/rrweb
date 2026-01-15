@@ -4,9 +4,9 @@ import {
   type canvasManagerMutationCallback,
   type IWindow,
   type listenerHandler,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import { hookSetter, isBlocked } from '../../../utils';
-import { patch } from '@kenobi.ai/utils';
+import { patch } from '@kenobi.ai/rrweb-utils';
 import { serializeArgs } from './serialize-args';
 
 export default function initCanvas2DMutationObserver(

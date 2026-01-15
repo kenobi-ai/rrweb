@@ -1,7 +1,7 @@
 import type { ICanvas } from '@kenobi.ai/rrweb-snapshot';
-import type { blockClass, IWindow, listenerHandler } from '@kenobi.ai/types';
+import type { blockClass, IWindow, listenerHandler } from '@kenobi.ai/rrweb-types';
 import { isBlocked } from '../../../utils';
-import { patch } from '@kenobi.ai/utils';
+import { patch } from '@kenobi.ai/rrweb-utils';
 
 function getNormalizedContextName(contextType: string) {
   return contextType === 'experimental-webgl' ? 'webgl' : contextType;

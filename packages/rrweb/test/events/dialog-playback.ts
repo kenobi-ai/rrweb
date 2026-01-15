@@ -1,4 +1,4 @@
-import { eventWithTime, IncrementalSource } from '@kenobi.ai/types';
+import { eventWithTime, IncrementalSource } from '@kenobi.ai/rrweb-types';
 
 const startTime = 1900000000;
 export const closedFullSnapshotTime = 132;

@@ -44,7 +44,7 @@
     "url": "https://github.com/kenobi-ai/rrweb/issues"
   },
   "devDependencies": {
-    "@kenobi.ai/types": "^2.0.0-alpha.19",
+    "@kenobi.ai/rrweb-types": "^2.0.0-alpha.19",
     "@types/puppeteer": "^5.4.4",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",

@@ -1,6 +1,6 @@
 import { record } from '@kenobi.ai/rrweb';
 import type { recordOptions } from '@kenobi.ai/rrweb';
-import type { eventWithTime } from '@kenobi.ai/types';
+import type { eventWithTime } from '@kenobi.ai/rrweb-types';
 import { MessageName, type RecordStartedMessage } from '~/types';
 import { isInCrossOriginIFrame } from '~/utils';
 

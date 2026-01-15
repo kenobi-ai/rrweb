@@ -1,9 +1,9 @@
-import type { Emitter } from '@kenobi.ai/types';
-import { MediaInteractions, ReplayerEvents } from '@kenobi.ai/types';
+import type { Emitter } from '@kenobi.ai/rrweb-types';
+import { MediaInteractions, ReplayerEvents } from '@kenobi.ai/rrweb-types';
 import type { RRMediaElement } from '@kenobi.ai/rrdom';
 import type { createPlayerService, createSpeedService } from '../machine';
 import type { Mirror } from '@kenobi.ai/rrweb-snapshot';
-import type { mediaInteractionData, mediaAttributes } from '@kenobi.ai/types';
+import type { mediaInteractionData, mediaAttributes } from '@kenobi.ai/rrweb-types';
 
 type MediaState = {
   isPlaying: boolean;

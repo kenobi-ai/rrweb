@@ -26,12 +26,12 @@ import type {
   serializedNodeWithId,
   canvasMutationData,
   styleSheetRuleData,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import {
   NodeType as RRNodeType,
   EventType,
   IncrementalSource,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 
 const elementSn = {
   type: RRNodeType.Element,

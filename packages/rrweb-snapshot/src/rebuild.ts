@@ -5,7 +5,7 @@ import {
   NodeType,
   type elementNode,
   type legacyAttributes,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import { type tagMap, type BuildCache } from './types';
 import {
   isElement,

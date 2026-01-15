@@ -11,14 +11,14 @@ import type {
   eventWithTime,
   listenerHandler,
   mutationData,
-} from '@kenobi.ai/types';
-import { unpack } from '@kenobi.ai/packer';
+} from '@kenobi.ai/rrweb-types';
+import { unpack } from '@kenobi.ai/rrweb-packer';
 import * as fs from 'fs';
 import * as path from 'path';
 import type * as puppeteer from 'puppeteer';
 import type { recordOptions } from '@kenobi.ai/rrweb';
-import type {} from '@kenobi.ai/types';
-import { EventType } from '@kenobi.ai/types';
+import type {} from '@kenobi.ai/rrweb-types';
+import { EventType } from '@kenobi.ai/rrweb-types';
 import {
   assertSnapshot,
   getServerURL,

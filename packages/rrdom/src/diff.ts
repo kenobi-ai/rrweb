@@ -1,5 +1,5 @@
 import { type Mirror as NodeMirror } from '@kenobi.ai/rrweb-snapshot';
-import { NodeType as RRNodeType } from '@kenobi.ai/types';
+import { NodeType as RRNodeType } from '@kenobi.ai/rrweb-types';
 import type {
   canvasMutationData,
   canvasEventWithTime,
@@ -8,7 +8,7 @@ import type {
   scrollData,
   styleDeclarationData,
   styleSheetRuleData,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import type {
   IRRCDATASection,
   IRRComment,

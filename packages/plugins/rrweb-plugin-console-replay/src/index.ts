@@ -2,9 +2,9 @@ import {
   type LogLevel,
   type LogData,
   PLUGIN_NAME,
-} from '@kenobi.ai/plugin-console-record';
-import type { eventWithTime } from '@kenobi.ai/types';
-import { EventType, IncrementalSource } from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-plugin-console-record';
+import type { eventWithTime } from '@kenobi.ai/rrweb-types';
+import { EventType, IncrementalSource } from '@kenobi.ai/rrweb-types';
 import type { ReplayPlugin, Replayer } from '@kenobi.ai/rrweb';
 
 /**

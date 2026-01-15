@@ -2,7 +2,7 @@
   "name": "@kenobi.ai/rrweb-player",
   "version": "2.0.0-alpha.19",
   "devDependencies": {
-    "@kenobi.ai/types": "^2.0.0-alpha.19",
+    "@kenobi.ai/rrweb-types": "^2.0.0-alpha.19",
     "@sveltejs/adapter-auto": "^3.0.0",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/package": "^2.0.0",
@@ -20,8 +20,8 @@
   },
   "dependencies": {
     "@tsconfig/svelte": "^1.0.0",
-    "@kenobi.ai/replay": "^2.0.0-alpha.19",
-    "@kenobi.ai/packer": "^2.0.0-alpha.19"
+    "@kenobi.ai/rrweb-replay": "^2.0.0-alpha.19",
+    "@kenobi.ai/rrweb-packer": "^2.0.0-alpha.19"
   },
   "publishConfig": {
     "access": "public"

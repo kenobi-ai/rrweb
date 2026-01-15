@@ -15,7 +15,7 @@ export {
   MouseInteractions,
   ReplayerEvents,
   type eventWithTime,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 
 // exports style.css from replay
 import './replay/styles/style.css';

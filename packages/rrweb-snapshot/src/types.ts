@@ -1,4 +1,4 @@
-import type { serializedNodeWithId } from '@kenobi.ai/types';
+import type { serializedNodeWithId } from '@kenobi.ai/rrweb-types';
 
 export type tagMap = {
   [key: string]: string;

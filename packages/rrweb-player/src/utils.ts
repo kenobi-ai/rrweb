@@ -15,8 +15,8 @@ declare global {
   }
 }
 
-import { EventType, IncrementalSource } from '@kenobi.ai/types';
-import type { eventWithTime } from '@kenobi.ai/types';
+import { EventType, IncrementalSource } from '@kenobi.ai/rrweb-types';
+import type { eventWithTime } from '@kenobi.ai/rrweb-types';
 
 export function inlineCss(cssObj: Record<string, string>): string {
   let style = '';

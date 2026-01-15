@@ -1,6 +1,6 @@
 import { discardPriorSnapshots } from '../src/replay/machine';
 import { sampleEvents } from './utils';
-import { EventType } from '@kenobi.ai/types';
+import { EventType } from '@kenobi.ai/rrweb-types';
 
 const events = sampleEvents.filter(
   (e) => ![EventType.DomContentLoaded, EventType.Load].includes(e.type),

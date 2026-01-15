@@ -14,7 +14,7 @@ import {
   ISuite,
 } from './utils';
 import type { recordOptions } from '../src/types';
-import { eventWithTime, NodeType, EventType } from '@kenobi.ai/types';
+import { eventWithTime, NodeType, EventType } from '@kenobi.ai/rrweb-types';
 import { visitSnapshot } from '@kenobi.ai/rrweb-snapshot';
 
 describe('record integration tests', function (this: ISuite) {

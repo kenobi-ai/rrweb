@@ -9,7 +9,7 @@ import {
   EventType,
   IncrementalSource,
   CanvasContext,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import {
   assertSnapshot,
   launchPuppeteer,

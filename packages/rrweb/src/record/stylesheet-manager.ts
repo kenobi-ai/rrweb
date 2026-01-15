@@ -6,7 +6,7 @@ import type {
   adoptedStyleSheetParam,
   attributeMutation,
   mutationCallBack,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import { StyleSheetMirror } from '../utils';
 
 export class StylesheetManager {

@@ -1,5 +1,5 @@
-import type { listenerHandler, RecordPlugin, IWindow } from '@kenobi.ai/types';
-import { patch } from '@kenobi.ai/utils';
+import type { listenerHandler, RecordPlugin, IWindow } from '@kenobi.ai/rrweb-types';
+import { patch } from '@kenobi.ai/rrweb-utils';
 import { ErrorStackParser, StackFrame } from './error-stack-parser';
 import { stringify } from './stringify';
 

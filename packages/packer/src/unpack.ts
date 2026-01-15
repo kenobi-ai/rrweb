@@ -1,6 +1,6 @@
 import { strFromU8, strToU8, unzlibSync } from 'fflate';
 import { type eventWithTimeAndPacker, MARK } from './base';
-import type { UnpackFn, eventWithTime } from '@kenobi.ai/types';
+import type { UnpackFn, eventWithTime } from '@kenobi.ai/rrweb-types';
 
 export const unpack: UnpackFn = (raw: string) => {
   if (typeof raw !== 'string') {

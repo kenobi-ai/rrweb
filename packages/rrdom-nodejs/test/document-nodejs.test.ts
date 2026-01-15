@@ -4,7 +4,7 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import * as fs from 'fs';
 import * as path from 'path';
-import { NodeType as RRNodeType } from '@kenobi.ai/types';
+import { NodeType as RRNodeType } from '@kenobi.ai/rrweb-types';
 import {
   RRCanvasElement,
   RRCDATASection,

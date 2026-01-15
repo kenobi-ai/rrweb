@@ -1,4 +1,4 @@
-import type { attributeMutation } from '@kenobi.ai/types';
+import type { attributeMutation } from '@kenobi.ai/rrweb-types';
 import { RRNode } from '@kenobi.ai/rrdom';
 
 /**

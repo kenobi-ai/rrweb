@@ -60,6 +60,6 @@
     "cssstyle": "^2.3.0",
     "nwsapi": "2.2.0",
     "@kenobi.ai/rrdom": "^2.0.0-alpha.19",
-    "@kenobi.ai/types": "^2.0.0-alpha.19"
+    "@kenobi.ai/rrweb-types": "^2.0.0-alpha.19"
   }
 }

@@ -1,6 +1,6 @@
 import { createMirror as createNodeMirror } from '@kenobi.ai/rrweb-snapshot';
 import type { Mirror as NodeMirror } from '@kenobi.ai/rrweb-snapshot';
-import { NodeType as RRNodeType } from '@kenobi.ai/types';
+import { NodeType as RRNodeType } from '@kenobi.ai/rrweb-types';
 import type {
   IMirror,
   serializedNodeWithId,
@@ -10,7 +10,7 @@ import type {
   scrollData,
   styleSheetRuleData,
   styleDeclarationData,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import {
   BaseRRNode as RRNode,
   BaseRRCDATASection,

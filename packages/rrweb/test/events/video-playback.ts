@@ -1,4 +1,4 @@
-import type { eventWithTime } from '@kenobi.ai/types';
+import type { eventWithTime } from '@kenobi.ai/rrweb-types';
 
 const events: eventWithTime[] = [
   { type: 0, data: {}, timestamp: 1900000001 },

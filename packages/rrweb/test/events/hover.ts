@@ -1,4 +1,4 @@
-import { IncrementalSource, MouseInteractions } from '@kenobi.ai/types';
+import { IncrementalSource, MouseInteractions } from '@kenobi.ai/rrweb-types';
 import type { eventWithTime } from '../../../types/src';
 
 const events: eventWithTime[] = [

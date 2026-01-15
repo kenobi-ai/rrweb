@@ -1,5 +1,5 @@
 import type { Replayer } from '../';
-import { CanvasContext, type canvasMutationCommand } from '@kenobi.ai/types';
+import { CanvasContext, type canvasMutationCommand } from '@kenobi.ai/rrweb-types';
 import { deserializeArg, variableListFor } from './deserialize-args';
 
 function getContext(

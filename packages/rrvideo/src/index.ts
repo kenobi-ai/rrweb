@@ -1,7 +1,7 @@
 import * as fs from 'fs-extra';
 import * as path from 'path';
 import { chromium } from 'playwright';
-import { EventType, eventWithTime } from '@kenobi.ai/types';
+import { EventType, eventWithTime } from '@kenobi.ai/rrweb-types';
 import type Player from '@kenobi.ai/rrweb-player';
 
 const rrwebScriptPath = path.resolve(

@@ -1,6 +1,6 @@
-import type { SequentialIdOptions } from '@kenobi.ai/plugin-sequential-id-record';
+import type { SequentialIdOptions } from '@kenobi.ai/rrweb-plugin-sequential-id-record';
 import type { ReplayPlugin } from '@kenobi.ai/rrweb';
-import type { eventWithTime } from '@kenobi.ai/types';
+import type { eventWithTime } from '@kenobi.ai/rrweb-types';
 
 type Options = SequentialIdOptions & {
   warnOnMissingId: boolean;

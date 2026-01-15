@@ -7,7 +7,7 @@ import {
   Mirror as NodeMirror,
   serializedNodeWithId,
 } from '@kenobi.ai/rrweb-snapshot';
-import { NodeType as RRNodeType } from '@kenobi.ai/types';
+import { NodeType as RRNodeType } from '@kenobi.ai/rrweb-types';
 import { RRDocument } from '../../src';
 import { diff, ReplayerHandler } from '../../src/diff';
 

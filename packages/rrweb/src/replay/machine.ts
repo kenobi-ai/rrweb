@@ -11,7 +11,7 @@ import {
   EventType,
   type Emitter,
   IncrementalSource,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import { Timer, addDelay } from './timer';
 
 export type PlayerContext = {

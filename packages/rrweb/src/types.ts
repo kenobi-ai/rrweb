@@ -38,7 +38,7 @@ import type {
   viewportResizeCallback,
   PackFn,
   UnpackFn,
-} from '@kenobi.ai/types';
+} from '@kenobi.ai/rrweb-types';
 import type ProcessedNodeManager from './record/processed-node-manager';
 
 export type recordOptions<T> = {

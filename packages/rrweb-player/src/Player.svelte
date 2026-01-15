@@ -1,8 +1,8 @@
 <script lang="ts">
   import { onMount, onDestroy } from 'svelte';
-  import { Replayer } from '@kenobi.ai/replay';
-  import { unpack } from '@kenobi.ai/packer/unpack';
-  import type { eventWithTime } from '@kenobi.ai/types';
+  import { Replayer } from '@kenobi.ai/rrweb-replay';
+  import { unpack } from '@kenobi.ai/rrweb-packer/unpack';
+  import type { eventWithTime } from '@kenobi.ai/rrweb-types';
   import {
     inlineCss,
     openFullscreen,
@@ -195,7 +195,7 @@
 </script>
 
 <style global>
-  @import '@kenobi.ai/replay/dist/style.css';
+  @import '@kenobi.ai/rrweb-replay/dist/style.css';
 
   .rr-player {
     position: relative;

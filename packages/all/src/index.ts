@@ -1,4 +1,4 @@
 export * from '@kenobi.ai/rrweb';
-export * from '@kenobi.ai/packer';
-// export * from '@kenobi.ai/plugin-console-record';
-// export * from '@kenobi.ai/plugin-console-replay';
+export * from '@kenobi.ai/rrweb-packer';
+// export * from '@kenobi.ai/rrweb-plugin-console-record';
+// export * from '@kenobi.ai/rrweb-plugin-console-replay';

@@ -1,5 +1,5 @@
-import type { eventWithTime } from '@kenobi.ai/types';
-import type { Replayer, playerConfig } from '@kenobi.ai/replay';
+import type { eventWithTime } from '@kenobi.ai/rrweb-types';
+import type { Replayer, playerConfig } from '@kenobi.ai/rrweb-replay';
 import type { Mirror } from '@kenobi.ai/rrweb-snapshot';
 
 export type RRwebPlayerOptions = {

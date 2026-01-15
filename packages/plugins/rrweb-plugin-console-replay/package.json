@@ -1,21 +1,21 @@
 {
-  "name": "@kenobi.ai/plugin-console-replay",
+  "name": "@kenobi.ai/rrweb-plugin-console-replay",
   "version": "2.0.0-alpha.19",
   "description": "",
   "type": "module",
-  "main": "./dist/plugin-console-replay.umd.cjs",
-  "module": "./dist/plugin-console-replay.js",
-  "unpkg": "./dist/plugin-console-replay.umd.cjs",
+  "main": "./dist/rrweb-plugin-console-replay.umd.cjs",
+  "module": "./dist/rrweb-plugin-console-replay.js",
+  "unpkg": "./dist/rrweb-plugin-console-replay.umd.cjs",
   "typings": "dist/index.d.ts",
   "exports": {
     ".": {
       "import": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/plugin-console-replay.js"
+        "default": "./dist/rrweb-plugin-console-replay.js"
       },
       "require": {
         "types": "./dist/index.d.cts",
-        "default": "./dist/plugin-console-replay.cjs"
+        "default": "./dist/rrweb-plugin-console-replay.cjs"
       }
     }
   },
@@ -47,7 +47,7 @@
   },
   "homepage": "https://github.com/kenobi-ai/rrweb#readme",
   "devDependencies": {
-    "@kenobi.ai/plugin-console-record": "^2.0.0-alpha.19",
+    "@kenobi.ai/rrweb-plugin-console-record": "^2.0.0-alpha.19",
     "@kenobi.ai/rrweb": "^2.0.0-alpha.19",
     "typescript": "^5.4.5",
     "vite": "^5.3.1",

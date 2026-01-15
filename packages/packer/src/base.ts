@@ -1,4 +1,4 @@
-import type { eventWithTime } from '@kenobi.ai/types';
+import type { eventWithTime } from '@kenobi.ai/rrweb-types';
 
 export type eventWithTimeAndPacker = eventWithTime & {
   v: string;
